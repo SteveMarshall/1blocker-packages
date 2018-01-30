@@ -1,0 +1,161 @@
+[
+  {
+    "id": "6B0986DE-B5E8-41E2-863F-119A8E414ADC",
+    "name": "Twitter screenshot mode",
+    "rules": [
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-tweet .follow-bar"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide follow bar",
+        "id": "4F359276-D9BE-4008-A8CD-E4C04792C90F"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-container .TweetArrows"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide arrows",
+        "id": "722AF915-4530-4F1F-9D4C-DC6595AE20CF"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-container .trends"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide trends",
+        "id": "0A32E9A3-B4B0-4DEA-964E-C21E4553DD59"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-container .permalink-footer"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide footer",
+        "id": "A809F897-89CE-4B83-844F-371175303EE9"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".PermalinkProfile-dismiss"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide close button",
+        "id": "7C762418-6713-4091-8AC0-A50C43415E47"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-container .ProfileTweet-actionList"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide tweet action buttons",
+        "id": "3F4481ED-1FBC-44D5-9040-5F0989F0D711"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".permalink-container .inline-reply-tweetbox .tweet-form"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide inline reply box",
+        "id": "ADF00763-BC27-431E-B798-84AB4AF6599F"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": "#doc"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide background page",
+        "id": "090C1F29-0BDC-4F85-8B9D-1122E33F59CF"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".ProfileTweet-action"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*twitter.com"
+            ]
+          }
+        },
+        "name": "Hide actions",
+        "id": "C0B05957-55DF-4371-BC3F-54693955AE06"
+      }
+    ]
+  }
+]

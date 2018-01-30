@@ -1,0 +1,144 @@
+[
+  {
+    "id": "D575B8BB-D085-4577-A5FF-0A4210725675",
+    "name": "GitHub screenshot mode",
+    "rules": [
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".sidebar-notifications"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide notifications sidebar",
+        "id": "4BE7864A-AF3F-492D-B5B6-744F34358502"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".user-nav"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide user nav",
+        "id": "332C3B44-0515-4A39-A28C-4BB52A3352DA"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".pagehead-actions"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide header actions",
+        "id": "52AB2CE0-CF3E-4F69-A223-487B0E9F7897"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".timeline-new-comment"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide timeline comment input",
+        "id": "ED30F0E4-3C94-4F91-AE08-4A8CAD20FAC8"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".timeline-comment-actions"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide timeline comment actions",
+        "id": "FB641E65-AFB9-4DBC-83DB-0FE8B0DD7E4D"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".pr-review-tools .dropdown"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide review button",
+        "id": "2194B2C0-8648-400F-8A6D-523000E2D664"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".repo-list .private"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide private repos",
+        "id": "B88EEF9D-D60E-4692-8614-0B97DCDA4958"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".review-thread-reply"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*",
+            "if-domain": [
+              "*github.com"
+            ]
+          }
+        },
+        "name": "Hide threaded reply input",
+        "id": "1B4BD8F1-C9F5-4221-BB4C-25857AD46911"
+      }
+    ]
+  }
+]

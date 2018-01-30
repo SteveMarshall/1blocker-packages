@@ -1,0 +1,50 @@
+[
+  {
+    "id": "92179465-EB47-4D55-8F57-C3E29E946019",
+    "name": "Clean Medium",
+    "rules": [
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".js-stickyFooter"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*"
+          }
+        },
+        "name": "Hide sticky footer",
+        "id": "F31367D0-F1D6-452C-BBB8-9FE6306F4556"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".js-postShareWidget"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*"
+          }
+        },
+        "name": "Hide post share widget",
+        "id": "C1F8072F-A131-42AE-A52E-156DE44377AA"
+      },
+      {
+        "content": {
+          "action": {
+            "type": "css-display-none",
+            "selector": ".postActionsBar-container"
+          },
+          "trigger": {
+            "url-filter-is-case-sensitive": true,
+            "url-filter": ".*"
+          }
+        },
+        "name": "Hide “open in app” bar",
+        "id": "3EC6174C-6440-4DBC-93DB-D67BB730160C"
+      }
+    ]
+  }
+]
